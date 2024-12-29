@@ -36,8 +36,8 @@
   font-size: 1.5rem;
   font-weight: bold;
   color: #dfb759;
-  position: relative; /* დაამატე პოზიციონირება */
-  z-index: 10; /* გადააწყვე ტექსტი overlay-ზე მაღლა */
+  position: relative; 
+  z-index: 10; 
 }
 
 .card-category p {
@@ -65,8 +65,8 @@
   }
 
   .card-category {
-    margin-top: 5px; /* მობილურზე ვამცირებთ მარგინს */
-    font-size: 1.2rem; /* მობილურზე ზომა უკეთ შესაფერისი */
+    margin-top: 5px; 
+    font-size: 1.2rem; 
   }
 
   .card-category p {
@@ -75,6 +75,6 @@
   }
 
   .card-overlay {
-    display: none; /* ჰოვერის overlay-ი მთლიანად მოიხსნა პატარა ეკრანებზე */
+    display: none; 
   }
 }
