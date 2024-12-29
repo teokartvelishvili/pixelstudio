@@ -6,12 +6,16 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
-    const { theme, toggleTheme } = useContext(ThemeContext);
-    const { language, setLanguage } = useContext(LanguageContext);
+    const { theme } = useContext(ThemeContext);
+    const { language } = useContext(LanguageContext);
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
+    };
+
+    const closeMenu = () => {
+        setIsOpen(false);
     };
 
     return (
@@ -24,9 +28,9 @@ const Navbar = () => {
                 </div>
             </div>
             <ul className={`UlCont ${isOpen ? "open" : ""}`}>
-                <li><Link to="/">{TEXTS[language].home}</Link> </li>
-                <li><Link to="/About">{TEXTS[language].about}</Link> </li>
-                <li><Link to="/Contact">{TEXTS[language].contact}</Link> </li>
+                <li onClick={closeMenu}><Link to="/">{TEXTS[language].home}</Link></li>
+                <li onClick={closeMenu}><Link to="/About">{TEXTS[language].about}</Link></li>
+                <li onClick={closeMenu}><Link to="/Contact">{TEXTS[language].contact}</Link></li>
             </ul>
         </div>
     );
