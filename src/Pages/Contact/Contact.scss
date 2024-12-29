@@ -9,7 +9,7 @@
   color: #dfb759;
   font-size: larger;
 }
-hr {
+.hr {
   color: #dfb759;
   background-color: #dfb759;
   height: 1px;
@@ -110,7 +110,7 @@ hr {
 
 input,
 textarea {
-  padding: 10px;
+  padding: 10px 0px;
   border: none;
   border-bottom: 1px solid #dfb759;
   border-radius: 5px;
