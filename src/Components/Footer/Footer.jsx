@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className={`footerContainer ${theme}`}>
       <div className="footerContent">
-        <div><p>&copy; 2024 Teona Kartvelishvili. All rights reserved.</p></div>
+        <div><p>&copy; All rights reserved.</p></div>
 
       </div>
     </footer>

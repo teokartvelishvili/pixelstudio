@@ -1,3 +1,24 @@
-.page {
-    height: 70vh;
+.homePage {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
+  height: 100vh;
+}
+
+.homePage h1 {
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  text-align: center; 
+  font-size: 2rem; 
+  color: #dfb759;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px; 
+  width: 100%; 
+  padding-bottom: 40px;
 }

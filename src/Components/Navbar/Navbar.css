@@ -16,20 +16,16 @@
   
   .UlCont li a {
     text-decoration: none;
-    color: black;
+    color: #dfb759;
   }
   
-  .dark .UlCont li a {
-    color: white;
-  }
+
   
   .UlCont li a:hover {
-    color: white;
+    color: #8e7439;
   }
   
-  .dark .UlCont li a:hover {
-    color: #EAE2B7;
-  }
+ 
   
   /* Styles for small screens */
   
@@ -51,11 +47,6 @@
       z-index: 2;
   }
   
-  
-  
-    .dark .UlCont {
-      background-color: #003049;
-    }
   
     .UlCont.open {
       opacity: 1;
@@ -97,11 +88,7 @@
       background-color: #003049;
       transition: all 0.3s ease;
     }
-  
-    .dark .burger .line {
-      background-color: #d62828;
-    }
-  
+
     .burger.open .line:nth-child(1) {
       transform: translateY(8px) rotate(-45deg);
     }
