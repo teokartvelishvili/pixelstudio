@@ -6,7 +6,7 @@ import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 const Contact = () => {
   return (
     <div className="ContactPage">
-      <hr />
+      <div className="hr"></div>
       <h2> დაგვიკავშირდით </h2>
       <div className="contact-container">
         <div className="contact-background">
