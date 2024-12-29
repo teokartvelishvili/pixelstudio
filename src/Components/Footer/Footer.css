@@ -36,6 +36,13 @@
 .bestSoftLink:hover {
   color: #b59346; /* ფერი შეიცვლება ჰოვერზე */
 }
+.flexMobile {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  gap: 5%;
+  flex-direction: row;
+}
 
 @media (max-width: 768px) {
   .flexMobile {
