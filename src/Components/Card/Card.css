@@ -36,8 +36,6 @@
   font-size: 1.5rem;
   font-weight: bold;
   color: #dfb759;
-  position: relative; 
-  z-index: 10; 
 }
 
 .card-category p {
