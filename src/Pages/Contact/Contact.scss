@@ -14,6 +14,8 @@ hr {
   background-color: #dfb759;
   height: 1px;
   border: none;
+  min-width: 100vw;
+  overflow-x: hidden;
 }
 
 .contact-container {

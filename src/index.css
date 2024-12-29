@@ -1,10 +1,13 @@
+@import "@fontsource/firago";
+
 body {
   margin: 0;
   background-color: black;
   color: white;
+  font-family: "FiraGO", sans-serif;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace, FiraGo;
 }
