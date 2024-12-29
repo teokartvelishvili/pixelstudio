@@ -1,4 +1,4 @@
-/* Styles for big screens */
+
 .NavCont {
   display: flex;
   justify-content: flex-end;
@@ -22,12 +22,12 @@
   color: #8e7439;
 }
 
-/* Hide hamburger menu on big screens */
+
 .hamburger-menu {
   display: none;
 }
 
-/* Styles for small screens */
+
 @media (max-width: 768px) {
   .UlCont {
       list-style: none;
