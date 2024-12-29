@@ -1,0 +1,40 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #080808; /* Dark background */
+    color: #f8f7f6; /* Light text */
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid #d62828; /* Red border at the top */
+    /* position: relative; */
+    bottom: 0;
+    /* width: 100%; */
+}
+
+.footerContainer.dark {
+    background-color: #0f0f0f; /* Dark background for light theme */
+    color: #f8f7f5; /* Light text for light theme */
+    border-top: 2px solid #d62828; /* Red border in light theme */
+}
+
+.footerContainer.light {
+    background-color: #d8d7d4; /* Light background for dark theme */
+    color: #121212; /* Dark text for dark theme */
+    border-top: 2px solid #44413c; /* Yellow border in dark theme */
+}
+
+.footerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footerContent p {
+    margin: 0;
+    font-size: 1em;
+}
+.footerContent .socIcons a img {
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+}
