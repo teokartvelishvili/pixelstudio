@@ -5,6 +5,11 @@ body {
 }
 
 code {
+<<<<<<< HEAD
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace, FiraGo;
+=======
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+>>>>>>> parent of 342ff25 (contact)
 }
