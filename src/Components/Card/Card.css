@@ -3,8 +3,9 @@
   overflow: hidden;
   cursor: pointer;
   width: 88%; 
-  height: 88%; 
+  height: 92%; 
   justify-self: center;
+  margin-bottom: 10px;
 }
 
 .card img {
@@ -43,6 +44,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #dfb759;
+
 }
 
 @media (max-width: 768px) {
