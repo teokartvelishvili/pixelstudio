@@ -44,10 +44,10 @@ const CardDetails = () => {
             className="arrow-icon"
           /> */}
           {" < "}
-          წინა
+          წინა ალბომი
         </button>
         <button className="next-button" onClick={handleNext}>
-          შემდეგი{" > "}
+          შემდეგი ალბომი{" > "}
           {/* <img
             src="/path/to/next-arrow.png"
             alt="Next"

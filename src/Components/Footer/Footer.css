@@ -1,26 +1,37 @@
 .footerContainer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%; 
-    background-color: black;
-    color: #dfb759;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    padding: 10px 0; 
-  }
-  
-  .footerContent {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    max-width: 1200px; 
-  }
-  
-  .footerContent p {
-    margin: 0;
-    font-size: 1em;
-  }
-  
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%; 
+  background-color: black;
+  color: #dfb759;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 10px 0; 
+}
+
+.footerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px; 
+}
+
+.footerContent p {
+  margin: 0;
+  font-size: 1em;
+  text-align: center;
+}
+
+.bestSoftLink {
+  color: #dfb759;
+  text-decoration: none; /* ხაზის მოცილება */
+  font-weight: bold; /* ტექსტის გამოყოფისთვის */
+  transition: color 0.3s ease; /* ჰოვერის ანიმაცია */
+}
+
+.bestSoftLink:hover {
+  color: #b59346; /* ფერი შეიცვლება ჰოვერზე */
+}

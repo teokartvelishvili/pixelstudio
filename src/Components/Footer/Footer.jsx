@@ -8,11 +8,22 @@ const Footer = () => {
   return (
     <footer className={`footerContainer ${theme}`}>
       <div className="footerContent">
-        <div><p>&copy; All rights reserved.</p></div>
-
+        <div>
+          <p>
+            &copy; პიქსელ სტუდია 2025. 
+            <span> </span>
+            <a 
+              href="https://bestsoft.ge" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="bestSoftLink"
+            >
+              დამზადებულია BestSoft-ის მიერ
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
-};
-
+}  
 export default Footer;
