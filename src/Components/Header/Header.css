@@ -22,3 +22,8 @@
     width: 44px;
     padding: 20px;
   }
+  .mainLogo:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+  }
