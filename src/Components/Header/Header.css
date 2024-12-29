@@ -1,8 +1,9 @@
 .header {
-    background-color: black;
-    color: #dfb759;
-    display: flex;
-    justify-content: space-between;
+  background-color: black;
+  color: #dfb759;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* .lang {
@@ -17,6 +18,7 @@
     z-index: 2;
   } */
 
+<<<<<<< Updated upstream
   .mainLogo img{
     height: 38px;
     width: 44px;
@@ -27,3 +29,10 @@
     transform: scale(1.05);
     transition: transform 0.2s ease;
   }
+=======
+.mainLogo img {
+  height: 38px;
+  width: 44px;
+  padding: 20px;
+}
+>>>>>>> Stashed changes
