@@ -27,15 +27,9 @@
 
 .bestSoftLink {
   color: #dfb759;
-<<<<<<< Updated upstream
   text-decoration: none; /* ხაზის მოცილება */
   font-weight: bold; /* ტექსტის გამოყოფისთვის */
   transition: color 0.3s ease; /* ჰოვერის ანიმაცია */
-=======
-  text-decoration: none; /* ხაზის მოცილება /
-  font-weight: bold; / ტექსტის გამოყოფისთვის /
-  transition: color 0.3s ease; / ჰოვერის ანიმაცია */
->>>>>>> Stashed changes
 }
 
 .bestSoftLink:hover {
