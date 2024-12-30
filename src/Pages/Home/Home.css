@@ -42,7 +42,7 @@
   .cards-container {
     grid-template-columns: repeat(1, 1fr); 
     gap: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
     width: 95%; 
     justify-content: center;
     justify-self: center;
