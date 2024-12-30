@@ -15,7 +15,7 @@ const Home = () => {
       {/* <button onClick={toggleTheme}>
         {theme === "dark" ? "Switch to Light Mode" : "Switch to Dark Mode"}
       </button> */}
-      <h1>ფოტო ალბომები</h1>
+      <h1>სტუდიური სერვისები</h1>
       <div className="cards-container">
         {cardsData.map((card) => (
           <Card key={card.id} {...card} />

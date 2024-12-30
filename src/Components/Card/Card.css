@@ -2,16 +2,17 @@
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  width: 88%; 
-  height: 92%; 
+  width: 88%;
+  height: 92%;
   justify-self: center;
   margin-bottom: 10px;
+  align-self: center;
 }
 
 .card img {
-  width: 100%; 
-  height: 100%; 
-  object-fit: cover; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .card-overlay {
@@ -30,7 +31,14 @@
 .card:hover .card-overlay {
   bottom: 0;
 }
+.card-wrapper {
+  transition: all 0.3s ease;
+}
 
+.card-wrapper:hover {
+  box-shadow: 13px 9px 20px 0px #dfb759;
+  transform: scale(1.1);
+}
 .card-category {
   margin-top: 10px;
   text-align: center;
@@ -44,15 +52,14 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #dfb759;
-
 }
 
 @media (max-width: 768px) {
   .card {
-    width: 100%; 
+    width: 100%;
     height: 0;
-    padding-top: 90%; 
-    position: relative; 
+    padding-top: 90%;
+    position: relative;
   }
 
   .card img {
@@ -61,12 +68,12 @@
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
   }
 
   .card-category {
-    margin-top: 5px; 
-    font-size: 1.2rem; 
+    margin-top: 5px;
+    font-size: 1.2rem;
   }
 
   .card-category p {
@@ -75,6 +82,6 @@
   }
 
   .card-overlay {
-    display: none; 
+    display: none;
   }
 }
