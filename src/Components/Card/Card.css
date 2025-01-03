@@ -1,13 +1,12 @@
 .card {
   position: relative;
   overflow: hidden;
-  cursor: pointer;
   width: 88%;
   height: 92%;
   justify-self: center;
   margin-bottom: 10px;
   align-self: center;
-  cursor: pointer;
+  cursor: url('../../Assets/picture_16607066.png') 0 0, auto;
 }
 
 .card img {

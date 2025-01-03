@@ -30,7 +30,7 @@
     list-style: none;
     text-align: center;
     opacity: 0;
-    transform: translateY(-100%);
+    transform: translateX(+100%);
     position: fixed;
     top: 0;
     left: 0;

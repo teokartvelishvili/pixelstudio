@@ -5,6 +5,7 @@ body {
   background-color: black;
   color: white;
   font-family: "FiraGO", sans-serif;
+  cursor: url('./Assets/camera_3004613.png') 0 0, auto;
 }
 
 code {
