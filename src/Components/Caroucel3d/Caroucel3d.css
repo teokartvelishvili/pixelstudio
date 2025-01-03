@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 70vh;
     background-color: black;
   }
   
@@ -45,6 +45,9 @@
     }
   }
   @media (max-width: 768px) {
+    .carousel-container {
+        min-height: 50vh;
+      }
     .carousel-box {
       width: 200px; 
       height: 200px; 
