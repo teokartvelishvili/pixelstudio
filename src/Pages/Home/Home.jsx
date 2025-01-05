@@ -17,10 +17,12 @@ const Home = () => {
       <div>
       <Carousel/>
       <h1>სტუდიური სერვისები</h1>
+      <div  className="homepageCont">
       <div className="cards-container">
         {cardsData.map((card) => (
           <Card key={card.id} {...card} />
         ))}
+        </div>
       </div>
 
       </div>
