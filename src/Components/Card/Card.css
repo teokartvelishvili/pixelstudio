@@ -32,7 +32,7 @@
   overflow: hidden;
   margin-bottom: 15px;
   padding-top: 5%;
-  background-color: #dfb7590a;
+  background-color: #dfb75919;
   box-shadow: -0.5px 0px 0.5px 0.5px #dfb759;
 }
 
@@ -93,8 +93,9 @@
 
   .card-wrapper {
     height: 400px; 
-    width: 1000px;
+    width: 280px;
     padding: 5%;
+    box-shadow: none;
   }
 
   .card-category {
