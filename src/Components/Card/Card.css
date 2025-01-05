@@ -78,7 +78,7 @@
 
 @media (max-width: 768px) {
   .card {
-    width: 95%;
+    width: 85%;
     height: 350px; /* ფიქსირებული სიმაღლე პატარა ეკრანზე */
   }
 
