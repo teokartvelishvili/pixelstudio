@@ -35,7 +35,7 @@ const cardsData = [
     id: "3",
     image:
       "https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/470124565_1026134786221858_3814634485070654587_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=UlffNZHG3QEQ7kNvgG-q2Ik&_nc_zt=23&_nc_ht=scontent.ftbs5-3.fna&_nc_gid=ANawYK0prIF6S7qhZxPOQVF&oh=00_AYDg2gBYcz3g8zTXtlHiJuCPE_UPj9R4aEArycGQtoT_gw&oe=677717A6",
-    category: "პიქსელ ჰაბი",
+    category: "PIXEL ჰაბი",
     photos: [
       "https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/469977751_1025802742921729_4558848689096658767_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=RGdWm19z0MIQ7kNvgG19lry&_nc_zt=23&_nc_ht=scontent.ftbs5-3.fna&_nc_gid=A6J1IKzFUQc_0getMRE6nxf&oh=00_AYAJ6dXrRPqoT27BO_y8cT_rbeaE2CJ7BsCpJJEbdb5hAA&oe=677732AB",
       "https://scontent.ftbs5-4.fna.fbcdn.net/v/t39.30808-6/469891022_1025802706255066_6199254949333718878_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=_VXo3KT9NBQQ7kNvgHIFRke&_nc_zt=23&_nc_ht=scontent.ftbs5-4.fna&_nc_gid=AaHXh36CMzgoVKowuT3kxBj&oh=00_AYCT48r49YIntKn0ewrwOpMqMdcdLyd8_6enENIQ97m7CA&oe=67772405",
