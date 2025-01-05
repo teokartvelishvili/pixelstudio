@@ -78,7 +78,7 @@
 
 @media (max-width: 768px) {
   .card {
-    width: 85%;
+    width: 100%;
     height: 350px; /* ფიქსირებული სიმაღლე პატარა ეკრანზე */
   }
 
@@ -89,6 +89,8 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    padding: 0;
+    margin: 0;
   }
 
   .card-wrapper {
@@ -96,6 +98,7 @@
     width: 280px;
     padding: 5%;
     box-shadow: none;
+    border: 1px solid #dfb759;
   }
 
   .card-category {
