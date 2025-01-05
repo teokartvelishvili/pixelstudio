@@ -26,14 +26,14 @@
 .card-wrapper {
   position: relative;
   transition: all 0.7s ease;
-  border-bottom: 2px solid #dfb759;
+  border-bottom: 3px solid #dfb759;
+  border-top: 0.5px solid #dfb759;
   /* width: 100%; */
   aspect-ratio: 1 / 1;
   overflow: hidden;
   margin-bottom: 15px;
   padding-top: 5%;
   background-color: #dfb75919;
-  box-shadow: -0.5px 0px 0.5px 0.5px #dfb759;
 }
 
 .card-wrapper::before,
