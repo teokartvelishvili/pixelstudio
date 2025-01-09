@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Carousel.css";
+import { Link } from "react-router-dom";
 
 const Carousel = () => {
   const images = [
@@ -14,16 +15,15 @@ const Carousel = () => {
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
-  const intervalTime = 3000; 
+  const intervalTime = 3000;
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, intervalTime);
 
-    return () => clearInterval(interval); 
+    return () => clearInterval(interval);
   }, [images.length]);
-
 
   const goToSlide = (index) => {
     setCurrentIndex(index);
@@ -31,6 +31,15 @@ const Carousel = () => {
 
   return (
     <div className="carousel">
+      <div className="homeMainText">
+        <h1>
+          იმ მომენტებისთვის, რომლებიც გვინდა
+          <span> სამუდამოდ დავიმახსოვროთ!</span>
+        </h1>
+        <Link to="/about" className="slide-link">
+          გაიგე მეტი Pixel Studio-ს შესახებ →
+        </Link>
+      </div>
       <div className="carousel-images">
         {images.map((image, index) => (
           <img
