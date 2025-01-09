@@ -23,13 +23,15 @@ const cardsData = [
     //2,4,7,8,14
     id: "2",
     image:
-      "https://scontent.ftbs5-3.fna.fbcdn.net/v/t1.6435-9/29260999_945961628895605_4591102546575097856_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=274uPBIqCs4Q7kNvgHevnWT&_nc_zt=23&_nc_ht=scontent.ftbs5-3.fna&_nc_gid=AOYd7aNofbJgNf9siCtoO8M&oh=00_AYDR4kTYudPSEO6QJzYTk_Y8rCfsDY5oBSXOm5RSj1EMIw&oe=67988C2A",
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508068/_MG_9117_xw4xpo.jpg",
     category: "PIXEL ივენთი",
     photos: [
-      "https://scontent.ftbs5-2.fna.fbcdn.net/v/t39.30808-6/424546684_841967804638558_3239330826980874288_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=TtDQ9hSBurwQ7kNvgEbaXrm&_nc_zt=23&_nc_ht=scontent.ftbs5-2.fna&_nc_gid=AlNDS2nwRpFLSwNhMo5GhEa&oh=00_AYBQC2Pva0xtN1FvqOPhZmHRj-BHYQ__a2lSvv0ZeIQgEw&oe=67771D77",
-      "https://scontent.ftbs5-2.fna.fbcdn.net/v/t39.30808-6/440749908_841967874638551_8349205088154347824_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Cfy3nSbBplcQ7kNvgFQNH8d&_nc_zt=23&_nc_ht=scontent.ftbs5-2.fna&_nc_gid=AncnSBQae4lEZjDKMemMYdN&oh=00_AYCBGamub--e5YnotqEhVHxDW0wuPzh4suCIeEgMhOvvWQ&oe=67770A32",
-      "https://scontent.ftbs5-2.fna.fbcdn.net/v/t39.30808-6/440578200_841967707971901_6045347042112531352_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=qzoKIgHI4YoQ7kNvgEhiaU6&_nc_zt=23&_nc_ht=scontent.ftbs5-2.fna&_nc_gid=A8e-kR0AwA_Eq4nqlgPHP2X&oh=00_AYCP7OoqyY205s-Kv56shjPqqdV3CJlrZbL9BT-Y3CxIgw&oe=677714CE",
-      "https://scontent.ftbs5-2.fna.fbcdn.net/v/t39.30808-6/440578200_841967707971901_6045347042112531352_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=qzoKIgHI4YoQ7kNvgEhiaU6&_nc_zt=23&_nc_ht=scontent.ftbs5-2.fna&_nc_gid=A8e-kR0AwA_Eq4nqlgPHP2X&oh=00_AYCP7OoqyY205s-Kv56shjPqqdV3CJlrZbL9BT-Y3CxIgw&oe=677714CE",
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508071/1L4A5820-1_hg5mc3.jpg",
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508071/_MG_8763_hy8ctw.jpg",
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508078/01_tcgfhw.jpg",
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508082/IMG_0733_hlzqtg.jpg",
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508096/03_ydmj0m.jpg",
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508433/viber_image_2021-12-11_10-15-34-343_uopldm.jpg",
     ],
   },
   {
