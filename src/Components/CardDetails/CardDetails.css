@@ -5,6 +5,13 @@
 
   margin: 0 auto;
   margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-details h1 {
+  text-align: start;
+  margin-left: 10%;
 }
 
 .photo-gallery {

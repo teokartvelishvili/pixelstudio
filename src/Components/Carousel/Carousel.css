@@ -4,7 +4,7 @@
   height: 80vh;
   margin: 0 auto;
   overflow: hidden;
-  border: 1px solid #dfb759;
+  border: 1px solid #666;
   position: relative;
   margin-bottom: 100px;
 }
@@ -79,14 +79,15 @@ a {
   text-decoration: none;
 }
 .slide-link {
-  background: #666;
+  border: 1px solid grey;
   border-radius: 50px 30px;
   padding: 10px 13px;
-  color: #000000db;
+  color: grey;
   margin-top: 15px;
 }
-a:hover {
-  background-color: grey;
+.slide-link:hover {
+  border: 1px solid #2f26b1;
+  color: #2f26b1;
 }
 @media (max-width: 768px) {
   .carousel {
