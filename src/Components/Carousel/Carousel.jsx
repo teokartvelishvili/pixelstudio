@@ -33,8 +33,7 @@ const Carousel = () => {
     <div className="carousel">
       <div className="homeMainText">
         <h1>
-          იმ მომენტებისთვის, რომლებიც გვინდა
-          <span> სამუდამოდ დავიმახსოვროთ!</span>
+          im momentisTvis, romelic gvinda samudamod davimaxsovoT!
         </h1>
         <Link to="/about" className="slide-link">
           გაიგე მეტი Pixel Studio-ს შესახებ →
