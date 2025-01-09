@@ -12,7 +12,7 @@ const Card = ({ id, image, category }) => {
   return (
     <div className="card-wrapper" onClick={handleCardClick}>
       <div className="card">
-        <img src={image} alt={category} className="card-image" />
+        <img src={image} alt={category} loading="lazy" className="card-image" />
         <div className="card-overlay"></div>
       </div>
       <div className="card-category">

@@ -13,13 +13,12 @@ const CardDetails = () => {
   if (!card) return <p>Card not found</p>;
 
   const handleNext = () => {
-    const nextIndex = (cardIndex + 1) % cardsData.length; 
+    const nextIndex = (cardIndex + 1) % cardsData.length;
     navigate(`/gallery/${cardsData[nextIndex].id}`);
   };
 
   const handlePrev = () => {
-    const prevIndex =
-      (cardIndex - 1 + cardsData.length) % cardsData.length; 
+    const prevIndex = (cardIndex - 1 + cardsData.length) % cardsData.length;
     navigate(`/gallery/${cardsData[prevIndex].id}`);
   };
 
@@ -31,6 +30,7 @@ const CardDetails = () => {
           <img
             key={index}
             src={photo}
+            loading="lazy"
             alt={`Gallery ${index}`}
             onError={(e) => (e.target.src = "/path/to/default-image.jpg")}
           />

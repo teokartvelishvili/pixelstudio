@@ -1,5 +1,3 @@
-import baby from "../Assets/baby.jpg";
-
 const cardsData = [
   {
     //10,11,12,13,15
