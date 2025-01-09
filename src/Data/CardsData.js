@@ -201,6 +201,8 @@ const cardsData = [
     //3,5,6,9
 
     id: "3",
+    image:
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1736438655/IMG_9290_dfszqq.jpg",
     category: "PIXEL ჰაბი",
     subcategories: [
       {
