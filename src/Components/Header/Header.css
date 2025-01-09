@@ -19,12 +19,19 @@
   } */
 
 .mainLogo img {
-  height: 38px;
-  width: 44px;
+  width: 120px;
+  height: auto;
   padding: 20px;
 }
 .mainLogo:hover {
   cursor: pointer;
   transform: scale(1.05);
   transition: transform 0.2s ease;
+}
+@media screen and (max-width: 680px) {
+  .mainLogo img {
+    width: 105px;
+    height: auto;
+    padding-left: 20px;
+  }
 }

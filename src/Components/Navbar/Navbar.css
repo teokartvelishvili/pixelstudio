@@ -48,10 +48,11 @@
   .UlCont.open {
     opacity: 1;
     transform: translateY(0);
+    font-family: firaGo light, sans-serif;
   }
 
   .UlCont li {
-    margin: 20px 0;
+    margin: 10px 0;
   }
 
   .UlCont li a {
