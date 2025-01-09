@@ -112,7 +112,7 @@ const cardsData = [
       },
       {
         id: "3-2",
-        name: "მარკეტინგული ",
+        name: "გარე-მარკეტინგული ",
         photos: [
           "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509208/Firefly_Inpaint_20230809204546_1_svphnd.jpg",
           "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509214/IMG_5644_hzdl0g.jpg",
@@ -128,7 +128,7 @@ const cardsData = [
       },
       {
         id: "3-4",
-        name: "საბკატეგორია 2",
+        name: "მარკეტინგული",
         photos: [
           "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509214/IMG_5675_mtzehu.jpg",
           "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509202/Firefly_Inpaint_20230809204035_ip56yg.jpg",
