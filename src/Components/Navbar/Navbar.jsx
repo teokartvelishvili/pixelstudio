@@ -35,7 +35,7 @@ const Navbar = () => {
           <Link to="/About">{TEXTS[language].about}</Link>
         </li>
         <li onClick={closeMenu}>
-          <Link to="/About">საქმიანობა</Link>
+          <Link to="/activities">საქმიანობა</Link>
         </li>
         <li onClick={closeMenu}>
           <Link to="/Contact">{TEXTS[language].contact}</Link>

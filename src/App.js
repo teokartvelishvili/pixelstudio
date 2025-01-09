@@ -1,20 +1,21 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
-import Layout from './Layouts/Layout.js';
-import Home from './Pages/Home/Home.jsx';
-import About from './Pages/About/About.jsx';
-import Contact from './Pages/Contact/Contact.jsx';
-import CardDetails from './Components/CardDetails/Carddetails.jsx';
-import { ThemeContext } from './Hooks/ThemeContext.js';
+import React, { useState, useEffect } from "react";
+import "./App.css";
+import Layout from "./Layouts/Layout.js";
+import Home from "./Pages/Home/Home.jsx";
+import About from "./Pages/About/About.jsx";
+import Contact from "./Pages/Contact/Contact.jsx";
+import CardDetails from "./Components/CardDetails/Carddetails.jsx";
+import { ThemeContext } from "./Hooks/ThemeContext.js";
 import { LanguageContext } from "../src/Hooks/LanguageContext";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Activities from "./Pages/Activities/Activities.jsx";
 
 function App() {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState("light");
   const [language, setLanguage] = useState("ge");
 
   useEffect(() => {
-    const appEl = document.getElementById('app');
+    const appEl = document.getElementById("app");
     if (appEl) {
       appEl.className = theme;
     }
@@ -25,7 +26,7 @@ function App() {
   }, [language]);
 
   const toggleTheme = () => {
-    setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'));
+    setTheme((prevTheme) => (prevTheme === "dark" ? "light" : "dark"));
   };
 
   return (
@@ -47,6 +48,14 @@ function App() {
                 element={
                   <Layout>
                     <About />
+                  </Layout>
+                }
+              />
+              <Route
+                path="/activities"
+                element={
+                  <Layout>
+                    <Activities />
                   </Layout>
                 }
               />
