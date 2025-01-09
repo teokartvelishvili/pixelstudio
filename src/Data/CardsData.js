@@ -2,8 +2,10 @@ import baby from "../Assets/baby.jpg";
 
 const cardsData = [
   {
+    //10,11,12,13,15
     id: "1",
-    image: baby,
+    image:
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735510142/IMG_1695_ff9zd7.jpg",
     category: "PIXEL სტუდიო",
     photos: [
       "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507673/_MG_8458_jfaoh2.jpg",
@@ -20,6 +22,7 @@ const cardsData = [
     ],
   },
   {
+    //2,4,7,8,14
     id: "2",
     image:
       "https://scontent.ftbs5-3.fna.fbcdn.net/v/t1.6435-9/29260999_945961628895605_4591102546575097856_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=274uPBIqCs4Q7kNvgHevnWT&_nc_zt=23&_nc_ht=scontent.ftbs5-3.fna&_nc_gid=AOYd7aNofbJgNf9siCtoO8M&oh=00_AYDR4kTYudPSEO6QJzYTk_Y8rCfsDY5oBSXOm5RSj1EMIw&oe=67988C2A",
@@ -32,19 +35,25 @@ const cardsData = [
     ],
   },
   {
+    //3,5,6,9
     id: "3",
     image:
-      "https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/470124565_1026134786221858_3814634485070654587_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=UlffNZHG3QEQ7kNvgG-q2Ik&_nc_zt=23&_nc_ht=scontent.ftbs5-3.fna&_nc_gid=ANawYK0prIF6S7qhZxPOQVF&oh=00_AYDg2gBYcz3g8zTXtlHiJuCPE_UPj9R4aEArycGQtoT_gw&oe=677717A6",
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509200/Firefly_Inpaint_20230805232029_avmrzn.jpg",
     category: "PIXEL ჰაბი",
     photos: [
-      "https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/469977751_1025802742921729_4558848689096658767_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=RGdWm19z0MIQ7kNvgG19lry&_nc_zt=23&_nc_ht=scontent.ftbs5-3.fna&_nc_gid=A6J1IKzFUQc_0getMRE6nxf&oh=00_AYAJ6dXrRPqoT27BO_y8cT_rbeaE2CJ7BsCpJJEbdb5hAA&oe=677732AB",
-      "https://scontent.ftbs5-4.fna.fbcdn.net/v/t39.30808-6/469891022_1025802706255066_6199254949333718878_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=_VXo3KT9NBQQ7kNvgHIFRke&_nc_zt=23&_nc_ht=scontent.ftbs5-4.fna&_nc_gid=AaHXh36CMzgoVKowuT3kxBj&oh=00_AYCT48r49YIntKn0ewrwOpMqMdcdLyd8_6enENIQ97m7CA&oe=67772405",
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509195/Firefly_Inpaint_20230805230816_obemsq.jpg",
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509195/Firefly_Inpaint_20230805224422_ejrf7f.jpg",
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509208/Firefly_Inpaint_20230809204546_1_svphnd.jpg",
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509214/IMG_5644_hzdl0g.jpg",
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509214/IMG_5675_mtzehu.jpg",
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509202/Firefly_Inpaint_20230809204035_ip56yg.jpg",
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509201/Firefly_Inpaint_20230805233255_j48d5m.jpg",
     ],
   },
   {
     id: "4",
     image:
-      "https://scontent.ftbs5-4.fna.fbcdn.net/v/t39.30808-6/470222830_1026134759555194_1913859271021358416_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=d81lOeDYL2YQ7kNvgHLYV7_&_nc_zt=23&_nc_ht=scontent.ftbs5-4.fna&_nc_gid=A04fR9J5osMiufyIvDTNe8P&oh=00_AYBqUdKuwaJcuHlvRXEhNJJYmnpYqpqA7NokoZN7KTFLtQ&oe=6777040B",
+      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735510851/IMG_2959_tlnhsw.jpg",
     category: "PIXEL ფოტოსალონი",
     photos: [
       "https://scontent.ftbs5-4.fna.fbcdn.net/v/t39.30808-6/470227207_1028234049345265_4427732001773645205_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=nNrEhMLSAZ8Q7kNvgHO6bZ_&_nc_zt=23&_nc_ht=scontent.ftbs5-4.fna&_nc_gid=AvBVGK-7iwjL0Ec1qnYxFx-&oh=00_AYBvVbVRP88r8kc3ZuI0JRm6JXBcKdrUphNWxi_XijKlgg&oe=67771BD8",
