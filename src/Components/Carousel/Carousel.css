@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Geopixel';
-  src: url('../../Assets/Fonts/geopixel.ttf') format('truetype'); /* შეაცვლე გზას ფონტის რეალურ ადგილმდებარეობაზე */
+  font-family: "Geopixel";
+  src: url("../../Assets/Fonts/geopixel.ttf") format("truetype"); /* შეაცვლე გზას ფონტის რეალურ ადგილმდებარეობაზე */
   font-weight: normal;
   font-style: normal;
 }
@@ -23,8 +23,7 @@
   height: 100%;
   align-self: center;
   font-family: FiraGO light, sans-serif;
-  
- 
+
   line-height: 1.3;
   /* text-align: center;
   background-color: rgba(0, 0, 0, 0.5); 
@@ -43,6 +42,8 @@
 .carousel-images {
   display: flex;
   transition: transform 0.5s ease-in-out;
+  height: 100%;
+  object-fit: fill;
 }
 
 .carousel-images img {
@@ -108,12 +109,12 @@ a {
     font-size: medium;
     padding-top: 15%;
   }
-  .homeMainText h1 {
+  /* .homeMainText h1 {
     font-size: 1.5rem;
     line-height: 1.9;
     font-weight: bold;
-    color: transparent; /* ტექსტი გამჭვირვალე */
+    color: transparent; 
     -webkit-text-stroke: 0.1px #666;
     margin-bottom: 20%;
-  }
+  } */
 }
