@@ -283,18 +283,24 @@ const cardsData = [
     image:
       "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735510851/IMG_2959_tlnhsw.jpg",
     category: "PIXEL ფოტოსალონი",
-    photos: [
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507651/IMG_4834_tfyk2w.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507655/_MG_3497_-_Copy_fok6z4.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507657/_MG_5635_jsujwk.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507658/IMG_4865_euzwbt.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507659/IMG_4856_ghs7wv.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507659/IMG_4867_e1yvof.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507663/IMG_48522_f0jjab.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507663/IMG_4868_tmqeus.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507663/IMG_4873_hkjas8.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507641/FB_IMG_1652600979439_sawfuc.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507650/_MG_0060_m9jusp.jpg",
+    subcategories: [
+      {
+        id: "4-1",
+        name: "საბავშვო სესიები",
+        photos: [
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507651/IMG_4834_tfyk2w.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507655/_MG_3497_-_Copy_fok6z4.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507657/_MG_5635_jsujwk.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507658/IMG_4865_euzwbt.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507659/IMG_4856_ghs7wv.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507659/IMG_4867_e1yvof.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507663/IMG_48522_f0jjab.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507663/IMG_4868_tmqeus.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507663/IMG_4873_hkjas8.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507641/FB_IMG_1652600979439_sawfuc.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507650/_MG_0060_m9jusp.jpg",
+        ],
+      },
     ],
   },
 ];
