@@ -1,55 +1,142 @@
 const cardsData = [
   {
-    //10,11,12,13,15
     id: "1",
     image:
       "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735510142/IMG_1695_ff9zd7.jpg",
     category: "PIXEL სტუდიო",
-    photos: [
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507673/_MG_8458_jfaoh2.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507671/_MG_8433_qrgqi9.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507663/IMG_4873_hkjas8.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507663/IMG_4868_tmqeus.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507663/IMG_48522_f0jjab.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507659/IMG_4867_e1yvof.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507657/_MG_5635_jsujwk.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507655/_MG_3497_-_Copy_fok6z4.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507655/IMG_4852_lg5asc.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507650/_MG_0060_m9jusp.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507641/FB_IMG_1652600979439_sawfuc.jpg",
+    subcategories: [
+      {
+        id: "10",
+        name: "საახალწლო ",
+        photos: [
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507673/_MG_8458_jfaoh2.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507671/_MG_8433_qrgqi9.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507663/IMG_4873_hkjas8.jpg",
+        ],
+      },
+      {
+        id: "11",
+        name: "საიმიჯო ",
+        photos: [
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507663/IMG_4868_tmqeus.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507663/IMG_48522_f0jjab.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507659/IMG_4867_e1yvof.jpg",
+        ],
+      },
+      {
+        id: "12",
+        name: "საორსულო",
+        photos: [
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507657/_MG_5635_jsujwk.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507655/_MG_3497_-_Copy_fok6z4.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507655/IMG_4852_lg5asc.jpg",
+        ],
+      },
+      {
+        id: "13",
+        name: "ინდივიდუალური",
+        photos: [
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507650/_MG_0060_m9jusp.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507641/FB_IMG_1652600979439_sawfuc.jpg",
+        ],
+      },
+      {
+        id: "15",
+        name: "წყვილის ფოტოსესია",
+        photos: [
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507671/_MG_8433_qrgqi9.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507663/IMG_48522_f0jjab.jpg",
+        ],
+      },
     ],
   },
+
   {
-    //2,4,7,8,14
     id: "2",
     image:
       "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508068/_MG_9117_xw4xpo.jpg",
     category: "PIXEL ივენთი",
-    photos: [
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508071/1L4A5820-1_hg5mc3.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508071/_MG_8763_hy8ctw.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508078/01_tcgfhw.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508082/IMG_0733_hlzqtg.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508096/03_ydmj0m.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508433/viber_image_2021-12-11_10-15-34-343_uopldm.jpg",
+    subcategories: [
+      {
+        id: "2-1",
+        name: "ბანკეტები/ბოლოზარები",
+        photos: [
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508071/1L4A5820-1_hg5mc3.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508071/_MG_8763_hy8ctw.jpg",
+        ],
+      },
+      {
+        id: "2-2",
+        name: "კონცერტები/სცენა",
+        photos: [
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508078/01_tcgfhw.jpg",
+        ],
+      },
+      {
+        id: "2-3",
+        name: "ნათლობები",
+        photos: [
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508082/IMG_0733_hlzqtg.jpg",
+        ],
+      },
+      {
+        id: "2-4",
+        name: "დიდების გარესესია",
+        photos: [
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508096/03_ydmj0m.jpg",
+        ],
+      },
+      {
+        id: "2-5",
+        name: "ქორწილები",
+        photos: [
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508433/viber_image_2021-12-11_10-15-34-343_uopldm.jpg",
+        ],
+      },
     ],
   },
+
   {
     //3,5,6,9
+
     id: "3",
-    image:
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509200/Firefly_Inpaint_20230805232029_avmrzn.jpg",
     category: "PIXEL ჰაბი",
-    photos: [
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509195/Firefly_Inpaint_20230805230816_obemsq.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509195/Firefly_Inpaint_20230805224422_ejrf7f.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509208/Firefly_Inpaint_20230809204546_1_svphnd.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509214/IMG_5644_hzdl0g.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509214/IMG_5675_mtzehu.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509202/Firefly_Inpaint_20230809204035_ip56yg.jpg",
-      "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509201/Firefly_Inpaint_20230805233255_j48d5m.jpg",
+    subcategories: [
+      {
+        id: "3-1",
+        name: "გარე-საიმიჯო",
+        photos: [
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509195/Firefly_Inpaint_20230805230816_obemsq.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509195/Firefly_Inpaint_20230805224422_ejrf7f.jpg",
+        ],
+      },
+      {
+        id: "3-2",
+        name: "მარკეტინგული ",
+        photos: [
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509208/Firefly_Inpaint_20230809204546_1_svphnd.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509214/IMG_5644_hzdl0g.jpg",
+        ],
+      },
+      {
+        id: "3-3",
+        name: "სტუდიური პროფესიული",
+        photos: [
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509214/IMG_5675_mtzehu.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509202/Firefly_Inpaint_20230809204035_ip56yg.jpg",
+        ],
+      },
+      {
+        id: "3-4",
+        name: "საბკატეგორია 2",
+        photos: [
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509214/IMG_5675_mtzehu.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509202/Firefly_Inpaint_20230809204035_ip56yg.jpg",
+        ],
+      },
     ],
   },
+
   {
     id: "4",
     image:
