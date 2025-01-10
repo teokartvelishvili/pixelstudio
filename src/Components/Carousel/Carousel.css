@@ -30,8 +30,8 @@
   font-family: "Geopixel", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
-  color: rgb(10, 10, 9);
-  -webkit-text-stroke: 0.5px #e7c474;
+  color: black;
+  -webkit-text-stroke: 0.9px #e7c474;
   position: relative;
   letter-spacing: 5px;
   cursor: zoom-in;
