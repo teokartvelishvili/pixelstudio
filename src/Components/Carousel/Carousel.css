@@ -10,34 +10,94 @@
   height: 80vh;
   margin: 0 auto;
   overflow: hidden;
-  border: 1px solid #666;
+  border: 1px solid #e1d4b5;
   position: relative;
   margin-bottom: 100px;
 }
 .homeMainText {
   position: absolute;
   color: #e7c474;
-  background-color: #000000db;
-  width: 25%;
+  width: 50%;
   padding: 5%;
   height: 100%;
   align-self: center;
-  font-family: FiraGO light, sans-serif;
-
+  font-family: "FiraGO light", sans-serif;
   line-height: 1.3;
-  /* text-align: center;
-  background-color: rgba(0, 0, 0, 0.5); 
-  padding: 20px;
-  border-radius: 10px;
-  color: white; */
+
 }
+
 .homeMainText h1 {
-  /* font-size: 2.5rem;
-  font-weight: bold; */
-  /* color: transparent; 
-  -webkit-text-stroke: 0.5px #666; */
   font-family: "Geopixel", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: rgb(10, 10, 9);
+  -webkit-text-stroke: 0.5px #e7c474;
+  position: relative;
+  letter-spacing: 5px;
+  cursor: zoom-in;
 }
+
+ .homeMainText h1 span {
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.homeMainText h1 .hover-effect {
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.homeMainText h1 .hover-effect:hover {
+  transform: scale(1.5);
+  -webkit-text-stroke: 1.7px #e7c474;
+  cursor: zoom-in;
+}
+
+
+
+
+.slideLinkCont {
+  display: inline-block; /* სიგანე ტექსტის მიხედვით */
+  border: 1px solid #dfb759;
+  border-right: 16px solid #dfb759 ;
+  border-right: none;
+  padding: 10px 17px 10px 10px;
+  margin-top: 15px;
+  background-color: rgba(0, 0, 0, 0.483); 
+  backdrop-filter: blur(5px);
+  cursor: pointer;
+  transition: all 0.3s ease; /* ნელი ცვლილება */
+  position: relative;
+  clip-path: polygon(
+    0 0,      /* მარცხენა ზედა */
+    calc(100% - 15px) 0, /* მარჯვენა ზედა ჩაკეცილი */
+    100% 50%, /* მარჯვენა შუა */
+    calc(100% - 15px) 100%, /* მარჯვენა ქვედა ჩაკეცილი */
+    0 100%    /* მარცხენა ქვედა */
+  );
+}
+
+
+.slideLinkCont:hover {
+  border: 1px solid #1d1d1c;
+  border-right: 16px solid #1d1d1c ;
+  border-right: none;
+  background-color: #dfb75965; /* გავლარული ფონი */
+  /* transform: scale(1.05); ოდნავ ზრდის ეფექტი */
+}
+
+.slide-link {
+  color: #dfb759;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease; /* ფერის და პოზიციის ცვლილება */
+}
+
+.slideLinkCont:hover .slide-link {
+  color: #1d1d1c;
+  transform: translateX(5px); /* ტექსტი ოდნავ მარჯვნივ */
+}
+
 
 .carousel-images {
   display: flex;
@@ -88,17 +148,7 @@
 a {
   text-decoration: none;
 }
-.slide-link {
-  border: 1px solid grey;
-  border-radius: 50px 30px;
-  padding: 10px 13px;
-  color: grey;
-  margin-top: 15px;
-}
-.slide-link:hover {
-  border: 1px solid #2f26b1;
-  color: #2f26b1;
-}
+
 @media (max-width: 768px) {
   .carousel {
     width: 95%;
@@ -117,4 +167,10 @@ a {
     -webkit-text-stroke: 0.1px #666;
     margin-bottom: 20%;
   } */
+  .homeMainText h1 {
+    font-size: 2.1rem;
+    line-height: 1.1;
+    letter-spacing: 0px;
+
+  }
 }

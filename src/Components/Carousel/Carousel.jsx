@@ -29,13 +29,28 @@ const Carousel = () => {
     setCurrentIndex(index);
   };
 
+  const renderTextWithHoverEffect = (text) => {
+    return text.split(" ").map((word, wordIndex) => (
+      <span key={wordIndex} style={{ whiteSpace: "nowrap" }}>
+        {word.split("").map((char, charIndex) => (
+          <span key={`${wordIndex}-${charIndex}`} className="hover-effect">
+            {char}
+          </span>
+        ))}
+        &nbsp; {/* სივრცე სიტყვებს შორის */}
+      </span>
+    ));
+  };
+  
   return (
     <div className="carousel">
       <div className="homeMainText">
-        <h1>im momentisTvis, romelic gvinda samudamod davimaxsovroT!</h1>
-        <Link to="/about" className="slide-link">
-          გაიგე მეტი Pixel Studio-ს შესახებ →
-        </Link>
+        <h1>{renderTextWithHoverEffect("im momentisTvis, romelic gvinda samudamod davimaxsovroT!")}</h1>
+        <div className="slideLinkCont">
+          <Link to="/about" className="slide-link">
+            გაიგე მეტი Pixel Studio-ს შესახებ →
+          </Link>
+        </div>
       </div>
       <div className="carousel-images">
         {images.map((image, index) => (

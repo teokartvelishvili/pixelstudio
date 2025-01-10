@@ -10,7 +10,8 @@
   margin-bottom: 80px;
 }
 .about-content {
-  background-color: #00000096;
+  background-color: rgba(0, 0, 0, 0.483); 
+  backdrop-filter: blur(5px);
   width: 40%;
 }
 .about-content h1 {
