@@ -4,14 +4,15 @@ import { Link } from "react-router-dom";
 
 const Carousel = () => {
   const images = [
-    "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508011/IMG_2906_-_Copy_icdrva.jpg",
-    "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507899/IMG_0412_rpeyyu.jpg",
-    "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735509208/Firefly_Inpaint_20230809204546_1_svphnd.jpg",
-    "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508433/viber_image_2021-12-11_10-15-34-343_uopldm.jpg",
-    "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735510155/IMG_2183_lzsbjl.jpg",
-    "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735510300/IMG_5249_rtebg1.jpg",
-    "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735510915/IMG_3851_xd7jhj.jpg",
+    "https://res.cloudinary.com/dbc02mn7z/image/upload/v1737913892/IMG_3851_oocsey.jpg",
+    "https://res.cloudinary.com/dbc02mn7z/image/upload/v1737914249/_MG_1175_ab7eda.jpg",
+    "https://res.cloudinary.com/dbc02mn7z/image/upload/v1737913884/Firefly_Inpaint_20230805233255_kaa6ik.png",
+    "https://res.cloudinary.com/dbc02mn7z/image/upload/v1737913881/IMG_4834_ujg6l7.jpg",
+    "https://res.cloudinary.com/dbc02mn7z/image/upload/v1737913872/IMG_2462_t3tmju.jpg",
+    "https://res.cloudinary.com/dbc02mn7z/image/upload/v1737913869/IMG_1366_fdxajh.jpg",
+    "https://res.cloudinary.com/dbc02mn7z/image/upload/v1737913866/IMG_0749_ms8tyi.jpg",
     "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735510838/IMG_0984_kpglis.jpg",
+    "https://res.cloudinary.com/dbc02mn7z/image/upload/v1737914249/%E1%83%90%E1%83%A1_%E1%83%91%E1%83%94%E1%83%A0%E1%83%92_yxfqo3.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -41,11 +42,15 @@ const Carousel = () => {
       </span>
     ));
   };
-  
+
   return (
     <div className="carousel">
       <div className="homeMainText">
-        <h1>{renderTextWithHoverEffect("im momentisTvis, romelic gvinda samudamod davimaxsovroT!")}</h1>
+        <h1>
+          {renderTextWithHoverEffect(
+            "im momentisTvis, romelic gvinda samudamod davimaxsovroT!"
+          )}
+        </h1>
         <div className="slideLinkCont">
           <Link to="/about" className="slide-link">
             გაიგე მეტი Pixel Studio-ს შესახებ →
