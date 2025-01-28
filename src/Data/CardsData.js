@@ -40,7 +40,7 @@ const cardsData = [
         ],
       },
       {
-        id: "11",
+        id: "19",
         name: "საიმიჯო ",
         photos: [
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735507012/IMG_2623_yirath.jpg",

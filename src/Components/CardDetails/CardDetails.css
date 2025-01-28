@@ -65,6 +65,18 @@
   align-self: start;
   padding-left: 10%;
 }
+
+.back-button {
+  background-color: transparent;
+  color: #dfb759;
+  align-self: flex-start;
+  margin-bottom: 10px;
+  margin-left: 6%;
+}
+.back-button:hover {
+  background-color: transparent;
+  color: #b59346;
+}
 @media (max-width: 768px) {
   .photo-gallery {
     display: grid;

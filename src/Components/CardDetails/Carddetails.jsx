@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import cardsData from "../../Data/CardsData";
 import "./CardDetails.css";
 
 const CardDetails = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
 
   // ვპოულობთ არჩეულ კატეგორიას
   const selectedCategory = cardsData.find((category) => category.id === id);
@@ -21,11 +22,24 @@ const CardDetails = () => {
       (subcat) => subcat.id === subcategoryId
     );
     setSelectedSubcategory(subcategory);
+
+    // ვცვლით URL-ს
+    navigate(`/gallery/${id}?subcategory=${subcategoryId}`);
+  };
+
+  // გალერიაზე უკან დაბრუნება
+  const handleBackToGallery = () => {
+    navigate("/activities");
   };
 
   return (
     <div className="card-details">
       <h1>{selectedCategory.category}</h1>
+
+      {/* უკან დაბრუნების ღილაკი */}
+      <button className="back-button" onClick={handleBackToGallery}>
+        &larr; Back to Gallery
+      </button>
 
       {/* საბკატეგორიების ღილაკები */}
       <div className="subcategories">
