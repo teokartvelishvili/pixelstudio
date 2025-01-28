@@ -9,15 +9,17 @@ const CardDetails = () => {
   // ვპოულობთ არჩეულ კატეგორიას
   const selectedCategory = cardsData.find((category) => category.id === id);
 
-  // localStorage-დან არჩეული საბკატეგორიის აღდგენა
-  const savedSubcategoryId = localStorage.getItem(`selectedSubcategory-${id}`);
-  const initialSubcategory =
-    selectedCategory?.subcategories.find(
-      (subcat) => subcat.id === savedSubcategoryId
-    ) || selectedCategory?.subcategories[0] || null;
+  // localStorage-დან სურათების აღდგენა
+  const savedPhotos = JSON.parse(localStorage.getItem(`photos-${id}`)) || [];
 
+  // ინიციალიზაცია
   const [selectedSubcategory, setSelectedSubcategory] = useState(
-    initialSubcategory
+    selectedCategory?.subcategories[0] || null
+  );
+  const [photos, setPhotos] = useState(
+    savedPhotos.length > 0
+      ? savedPhotos
+      : selectedCategory?.subcategories[0]?.photos || []
   );
 
   if (!selectedCategory) return <p>Category not found</p>;
@@ -28,16 +30,19 @@ const CardDetails = () => {
     );
     setSelectedSubcategory(subcategory);
 
-    // localStorage-ში არჩეული საბკატეგორიის შენახვა
-    localStorage.setItem(`selectedSubcategory-${id}`, subcategoryId);
+    // განახლებული სურათების შენახვა
+    if (subcategory) {
+      setPhotos(subcategory.photos);
+      localStorage.setItem(`photos-${id}`, JSON.stringify(subcategory.photos));
+    }
   };
 
   useEffect(() => {
-    // თუ localStorage-ში არჩეული საბკატეგორია არ არის ნაპოვნი, დავამატოთ ნაგულისხმევი
-    if (selectedSubcategory && !savedSubcategoryId) {
-      localStorage.setItem(`selectedSubcategory-${id}`, selectedSubcategory.id);
+    // ინიციალიზაცია: ნაგულისხმევი სურათების შენახვა
+    if (photos.length > 0 && !localStorage.getItem(`photos-${id}`)) {
+      localStorage.setItem(`photos-${id}`, JSON.stringify(photos));
     }
-  }, [selectedSubcategory, id, savedSubcategoryId]);
+  }, [photos, id]);
 
   return (
     <div className="card-details">
@@ -60,7 +65,7 @@ const CardDetails = () => {
 
       {/* სურათები */}
       <div className="photo-gallery">
-        {selectedSubcategory?.photos.map((photo, index) => (
+        {photos.map((photo, index) => (
           <img
             key={index}
             src={photo}
@@ -71,6 +76,11 @@ const CardDetails = () => {
         ))}
       </div>
     </div>
+  );
+};
+
+export default CardDetails;
+
   );
 };
 
