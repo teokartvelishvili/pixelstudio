@@ -32,9 +32,9 @@ const CardDetails = () => {
         {selectedCategory.subcategories.map((subcategory) => (
           <button
             key={subcategory.id}
-            className={subcategory-button ${
+            className={`subcategory-button ${
               selectedSubcategory?.id === subcategory.id ? "active" : ""
-            }}
+            }`}
             onClick={() => handleSubcategoryChange(subcategory.id)}
           >
             {subcategory.name}
@@ -49,7 +49,7 @@ const CardDetails = () => {
             key={index}
             src={photo}
             loading="lazy"
-            alt={Photo ${index}}
+            alt={`Photo ${index}`}
             onError={(e) => (e.target.src = "/path/to/default-image.jpg")}
           />
         ))}
@@ -58,4 +58,4 @@ const CardDetails = () => {
   );
 };
 
-export default CardDetails; 
+export default CardDetails;
