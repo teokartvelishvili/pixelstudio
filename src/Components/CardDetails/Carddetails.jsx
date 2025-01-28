@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import cardsData from "../../Data/CardsData";
 import "./CardDetails.css";
@@ -9,17 +9,9 @@ const CardDetails = () => {
   // ვპოულობთ არჩეულ კატეგორიას
   const selectedCategory = cardsData.find((category) => category.id === id);
 
-  // localStorage-დან სურათების აღდგენა
-  const savedPhotos = JSON.parse(localStorage.getItem(`photos-${id}`)) || [];
-
-  // ინიციალიზაცია
+  // ინიციალიზაცია საბკატეგორიისთვის, თუნდაც მონაცემი არ იყოს ნაპოვნი
   const [selectedSubcategory, setSelectedSubcategory] = useState(
     selectedCategory?.subcategories[0] || null
-  );
-  const [photos, setPhotos] = useState(
-    savedPhotos.length > 0
-      ? savedPhotos
-      : selectedCategory?.subcategories[0]?.photos || []
   );
 
   if (!selectedCategory) return <p>Category not found</p>;
@@ -29,20 +21,7 @@ const CardDetails = () => {
       (subcat) => subcat.id === subcategoryId
     );
     setSelectedSubcategory(subcategory);
-
-    // განახლებული სურათების შენახვა
-    if (subcategory) {
-      setPhotos(subcategory.photos);
-      localStorage.setItem(`photos-${id}`, JSON.stringify(subcategory.photos));
-    }
   };
-
-  useEffect(() => {
-    // ინიციალიზაცია: ნაგულისხმევი სურათების შენახვა
-    if (photos.length > 0 && !localStorage.getItem(`photos-${id}`)) {
-      localStorage.setItem(`photos-${id}`, JSON.stringify(photos));
-    }
-  }, [photos, id]);
 
   return (
     <div className="card-details">
@@ -53,9 +32,9 @@ const CardDetails = () => {
         {selectedCategory.subcategories.map((subcategory) => (
           <button
             key={subcategory.id}
-            className={`subcategory-button ${
+            className={subcategory-button ${
               selectedSubcategory?.id === subcategory.id ? "active" : ""
-            }`}
+            }}
             onClick={() => handleSubcategoryChange(subcategory.id)}
           >
             {subcategory.name}
@@ -65,12 +44,12 @@ const CardDetails = () => {
 
       {/* სურათები */}
       <div className="photo-gallery">
-        {photos.map((photo, index) => (
+        {selectedSubcategory?.photos.map((photo, index) => (
           <img
             key={index}
             src={photo}
             loading="lazy"
-            alt={`Photo ${index}`}
+            alt={Photo ${index}}
             onError={(e) => (e.target.src = "/path/to/default-image.jpg")}
           />
         ))}
@@ -79,7 +58,7 @@ const CardDetails = () => {
   );
 };
 
-export default CardDetails;
+export default CardDetails; 
 
   );
 };
