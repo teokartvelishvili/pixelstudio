@@ -64,6 +64,7 @@
   margin-bottom: 70px;
   align-self: start;
   padding-left: 10%;
+  flex-wrap: wrap;
 }
 
 .back-button {
