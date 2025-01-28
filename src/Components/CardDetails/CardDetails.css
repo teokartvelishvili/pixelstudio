@@ -91,4 +91,7 @@
     padding-left: 0%;
     flex-wrap: wrap;
   }
+  .back-button {
+    margin-left: 0px;
+  }
 }
