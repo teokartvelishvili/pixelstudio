@@ -147,7 +147,24 @@ const cardsData = [
         id: "2-3",
         name: "ნათლობები",
         photos: [
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735508082/IMG_0733_hlzqtg.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738061143/_MG_1123_h0vwm2.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738061141/_MG_1111_hjzsuo.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738061141/_MG_1175_suybhw.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738061139/_MG_1192_dcojat.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738061139/_MG_1122_fyxckl.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738061138/_MG_1176_ll3hkc.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738061138/_MG_1176_ll3hkc.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738061138/_MG_1171_wbjp9w.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738061136/_MG_1113_u3t58v.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738061136/_MG_1106_k04dhl.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738061134/_MG_1084_xhyu1n.jpg",
+          
+          
+          
+          
+          
+          
+          
         ],
       },
       {
@@ -288,17 +305,16 @@ const cardsData = [
         id: "4-1",
         name: "საბავშვო სესიები",
         photos: [
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507651/IMG_4834_tfyk2w.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507655/_MG_3497_-_Copy_fok6z4.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507657/_MG_5635_jsujwk.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507658/IMG_4865_euzwbt.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507659/IMG_4856_ghs7wv.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507659/IMG_4867_e1yvof.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507663/IMG_48522_f0jjab.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507663/IMG_4868_tmqeus.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507663/IMG_4873_hkjas8.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507641/FB_IMG_1652600979439_sawfuc.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/v1735507650/_MG_0060_m9jusp.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738060810/03_drsifz.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738060806/IMG_9042_l3dk8c.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738060806/IMG_5863_abnnep.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738060804/IMG_6951_tnxnxl.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738060804/IMG_4850_yink33.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738060804/IMG_5759_a2nxv0.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738060803/IMG_4834_kzygaz.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738060803/_MG_8458_iuky1w.jpg",
+          "https://res.cloudinary.com/dwfve6x4c/image/upload/v1738060802/_MG_0155_plehpa.jpg",
+         
         ],
       },
     ],
