@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import cardsData from "../../Data/CardsData";
 import "./CardDetails.css";
@@ -9,9 +9,15 @@ const CardDetails = () => {
   // ვპოულობთ არჩეულ კატეგორიას
   const selectedCategory = cardsData.find((category) => category.id === id);
 
-  // ინიციალიზაცია საბკატეგორიისთვის, თუნდაც მონაცემი არ იყოს ნაპოვნი
+  // localStorage-დან არჩეული საბკატეგორიის აღდგენა
+  const savedSubcategoryId = localStorage.getItem(`selectedSubcategory-${id}`);
+  const initialSubcategory =
+    selectedCategory?.subcategories.find(
+      (subcat) => subcat.id === savedSubcategoryId
+    ) || selectedCategory?.subcategories[0] || null;
+
   const [selectedSubcategory, setSelectedSubcategory] = useState(
-    selectedCategory?.subcategories[0] || null
+    initialSubcategory
   );
 
   if (!selectedCategory) return <p>Category not found</p>;
@@ -21,7 +27,17 @@ const CardDetails = () => {
       (subcat) => subcat.id === subcategoryId
     );
     setSelectedSubcategory(subcategory);
+
+    // localStorage-ში არჩეული საბკატეგორიის შენახვა
+    localStorage.setItem(`selectedSubcategory-${id}`, subcategoryId);
   };
+
+  useEffect(() => {
+    // თუ localStorage-ში არჩეული საბკატეგორია არ არის ნაპოვნი, დავამატოთ ნაგულისხმევი
+    if (selectedSubcategory && !savedSubcategoryId) {
+      localStorage.setItem(`selectedSubcategory-${id}`, selectedSubcategory.id);
+    }
+  }, [selectedSubcategory, id, savedSubcategoryId]);
 
   return (
     <div className="card-details">
