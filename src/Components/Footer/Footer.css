@@ -10,6 +10,7 @@
   align-items: center;
   padding: 10px 0;
   z-index: 9;
+  font-family: firaGo light, sans-serif;
 }
 
 .footerContent {
@@ -24,6 +25,7 @@
   margin: 0;
   font-size: 1em;
   text-align: center;
+  font-family: firaGo light, sans-serif;
 }
 
 .bestSoftLink {
@@ -31,6 +33,7 @@
   text-decoration: none; /* ხაზის მოცილება */
   font-weight: bold; /* ტექსტის გამოყოფისთვის */
   transition: color 0.3s ease; /* ჰოვერის ანიმაცია */
+  font-family: firaGo light, sans-serif;
 }
 
 .bestSoftLink:hover {
