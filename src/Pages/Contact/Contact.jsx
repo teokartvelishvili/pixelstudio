@@ -44,14 +44,30 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact-form">
-            <form>
+            <form action="https://formspree.io/f/xjkgwnrw" method="POST">
               <div className="form-group">
-                <input type="text" placeholder="სახელი *" required />
-                <input type="text" placeholder="გვარი *" required />
+                <input
+                  type="text"
+                  name="first_name"
+                  placeholder="სახელი *"
+                  required
+                />
+                <input
+                  type="text"
+                  name="last_name"
+                  placeholder="გვარი *"
+                  required
+                />
               </div>
-              <input type="email" placeholder="იმეილი *" required />
-              <input type="text" placeholder="Subject" />
+              <input
+                type="email"
+                name="email"
+                placeholder="იმეილი *"
+                required
+              />
+              <input type="text" name="subject" placeholder="Subject" />
               <textarea
+                name="message"
                 placeholder="დაგვიტოვე შეტყობინება ..."
                 required
               ></textarea>
