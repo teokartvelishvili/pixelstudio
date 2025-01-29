@@ -16,7 +16,7 @@ const Contact = () => {
               გადაღებას ნებისმიერი მიზნისთვის. თქვენთვის სასურველი შთამბეჭდავი
               კადრები, რომლებიც აღბეჭდავს თქვენს საუკეთესო მომენტებს.
             </p>
-            <p>info@pixelstudio.ge</p>
+            <p>Hello@pixelstudio.ge</p>
             <p>123-456-7890</p>
             <div className="social-icons">
               <a
