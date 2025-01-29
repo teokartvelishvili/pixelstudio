@@ -1,9 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
+  const [messageSent, setMessageSent] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+
+    fetch("https://formspree.io/f/xjkgwnrw", {
+      method: "POST",
+      body: new FormData(form),
+      headers: {
+        Accept: "application/json",
+      },
+    }).then((response) => {
+      if (response.ok) {
+        setMessageSent(true);
+        form.reset();
+        setTimeout(() => setMessageSent(false), 5000);
+      }
+    });
+  };
+
   return (
     <div className="ContactPage">
       <div className="hr"></div>
@@ -44,7 +65,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact-form">
-            <form action="https://formspree.io/f/xjkgwnrw" method="POST">
+            <form onSubmit={handleSubmit}>
               <div className="form-group">
                 <input
                   type="text"
@@ -73,6 +94,9 @@ const Contact = () => {
               ></textarea>
               <button type="submit">გაგზავნა</button>
             </form>
+            {messageSent && (
+              <p className="success-message">შეტყობინება გაიგზავნა!</p>
+            )}
           </div>
         </div>
       </div>
