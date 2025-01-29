@@ -6,6 +6,26 @@ const cardsData = [
     category: "PIXEL სტუდიო",
     subcategories: [
       {
+        id: "33",
+        name: "სტუდიური პროფესიული",
+        photos: [
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509817/IMG_9807_cq9ycq.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509814/IMG_9812_copy_zp04sr.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509814/IMG_9801_copy_hh3lc6.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509808/IMG_9577_svhqmu.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509804/IMG_9489_neiviv.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509800/IMG_7400_lspsbw.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509799/IMG_9370_ldy5lv.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509788/IMG_0341_mn2bfk.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509791/IMG_1499_eaxskz.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509796/9666_qqdcfv.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509786/_MG_0054_elegrj.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509787/9707_kufzml.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509782/_MG_0009_qfjkfy.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509781/01_-_Copyfgb_clodbz.jpg",
+        ],
+      },
+      {
         id: "10",
         name: "საახალწლო ",
         photos: [
@@ -118,7 +138,7 @@ const cardsData = [
     subcategories: [
       {
         id: "21",
-        name: "ბანკეტები/ბოლოზარები",
+        name: "ბანკეტი",
         photos: [
           "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061351/IMG_9477_-_Copy_hppcj5.jpg",
           "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061346/IMG_7581_jrbgld.jpg",
@@ -135,7 +155,7 @@ const cardsData = [
       },
       {
         id: "22",
-        name: "კონცერტები/სცენა",
+        name: "კონცერტი/ივენთი",
         photos: [
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735508448/viber_image_2021-12-11_10-18-39-913_rxogea.jpg",
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735508433/viber_image_2021-12-11_10-15-34-343_uopldm.jpg",
@@ -153,7 +173,7 @@ const cardsData = [
       },
       {
         id: "23",
-        name: "ნათლობები",
+        name: "ნათლობა",
         photos: [
           "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061143/_MG_1123_h0vwm2.jpg",
           "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061141/_MG_1111_hjzsuo.jpg",
@@ -170,7 +190,7 @@ const cardsData = [
       },
       {
         id: "24",
-        name: "დიდების გარესესია",
+        name: "გარესესია",
         photos: [
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509217/IMG_5704_cqthdi.jpg",
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509215/IMG_5689_fnsdjy.jpg",
@@ -201,7 +221,7 @@ const cardsData = [
     subcategories: [
       {
         id: "31",
-        name: "გარე-საიმიჯო",
+        name: "საიმიჯო",
         photos: [
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735507012/IMG_2623_yirath.jpg",
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735507007/IMG_2481_bmreib.jpg",
@@ -216,42 +236,23 @@ const cardsData = [
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735506991/IMG_1725_jvavtm.jpg",
         ],
       },
-      {
-        id: "32",
-        name: "გარე-მარკეტინგული ",
-        photos: [
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509208/Firefly_Inpaint_20230809204546_1_svphnd.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509214/IMG_5644_hzdl0g.jpg",
-          "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061222/MG_3260_sz99va.jpg",
-          "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061218/IMG_9996_igjfw8.jpg",
-          "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061216/IMG_9980_pijm3q.jpg",
-          "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061216/IMG_9857_ejamtd.jpg",
-          "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061213/IMG_0077_sgvhiz.jpg",
-          "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061212/IMG_0120_jsn4cc.jpg",
-          "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061211/IMG_0170_z7puef.jpg",
-          "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061210/_MG_1386_y9jfya.jpg",
-        ],
-      },
-      {
-        id: "33",
-        name: "სტუდიური პროფესიული",
-        photos: [
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509817/IMG_9807_cq9ycq.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509814/IMG_9812_copy_zp04sr.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509814/IMG_9801_copy_hh3lc6.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509808/IMG_9577_svhqmu.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509804/IMG_9489_neiviv.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509800/IMG_7400_lspsbw.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509799/IMG_9370_ldy5lv.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509788/IMG_0341_mn2bfk.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509791/IMG_1499_eaxskz.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509796/9666_qqdcfv.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509786/_MG_0054_elegrj.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509787/9707_kufzml.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509782/_MG_0009_qfjkfy.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509781/01_-_Copyfgb_clodbz.jpg",
-        ],
-      },
+      // {
+      //   id: "32",
+      //   name: "გარე-მარკეტინგული ",
+      //   photos: [
+      //     "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509208/Firefly_Inpaint_20230809204546_1_svphnd.jpg",
+      //     "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509214/IMG_5644_hzdl0g.jpg",
+      //     "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061222/MG_3260_sz99va.jpg",
+      //     "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061218/IMG_9996_igjfw8.jpg",
+      //     "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061216/IMG_9980_pijm3q.jpg",
+      //     "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061216/IMG_9857_ejamtd.jpg",
+      //     "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061213/IMG_0077_sgvhiz.jpg",
+      //     "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061212/IMG_0120_jsn4cc.jpg",
+      //     "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061211/IMG_0170_z7puef.jpg",
+      //     "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061210/_MG_1386_y9jfya.jpg",
+      //   ],
+      // },
+
       {
         id: "34",
         name: "მარკეტინგული",

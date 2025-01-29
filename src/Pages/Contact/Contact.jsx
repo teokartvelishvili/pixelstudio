@@ -20,7 +20,7 @@ const Contact = () => {
             <p>123-456-7890</p>
             <div className="social-icons">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/@pixelstudiogeo"
                 className="social-icon"
                 target="_blank"
                 rel="noopener noreferrer"
