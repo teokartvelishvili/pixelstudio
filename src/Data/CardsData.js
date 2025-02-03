@@ -38,7 +38,7 @@ const cardsData = [
           "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738060802/_MG_0155_plehpa.jpg",
         ],
       },
-      
+
       {
         id: "12",
         name: "საორსულო",
@@ -72,7 +72,7 @@ const cardsData = [
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735509781/01_-_Copyfgb_clodbz.jpg",
         ],
       },
-      
+
       {
         id: "13",
         name: "ინდივიდუალური",
@@ -111,7 +111,7 @@ const cardsData = [
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1735510898/IMG_3751_n5uz4w.jpg",
         ],
       },
-      
+
       {
         id: "10",
         name: "საახალწლო ",
@@ -148,7 +148,6 @@ const cardsData = [
           "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061344/IMG_0470_xqkfba.jpg",
           "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061344/IMG_6425_xspnpv.jpg",
           "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061343/IMG_4124_sjsxlp.jpg",
-          "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061340/IMG_2435_gzw7im.jpg",
           "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061340/IMG_2435_gzw7im.jpg",
           "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061339/IMG_2120_mkki4i.jpg",
           "https://res.cloudinary.com/dwfve6x4c/image/upload/q_auto,f_auto,w_1024/v1738061338/DJI_0537_cgy4q3.jpg",
@@ -260,7 +259,6 @@ const cardsData = [
         id: "34",
         name: "მარკეტინგული",
         photos: [
-          
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1736438682/IMG_9431_aceeeq.jpg",
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1736438683/IMG_9469_rfvpwb.jpg",
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1736438662/IMG_9425_z9nh4g.jpg",
