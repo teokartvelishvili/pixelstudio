@@ -38,7 +38,7 @@ const Contact = () => {
               კადრები, რომლებიც აღბეჭდავს თქვენს საუკეთესო მომენტებს.
             </p>
             <p>Hello@pixelstudio.ge</p>
-            <p>123-456-7890</p>
+            <p> 593 198 208 </p>
             <div className="social-icons">
               <a
                 href="https://www.facebook.com/@pixelstudiogeo"
