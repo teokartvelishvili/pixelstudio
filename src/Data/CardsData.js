@@ -257,8 +257,7 @@ const cardsData = [
         id: "34",
         name: "მარკეტინგული",
         photos: [
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1736438684/IMG_9609_kvcg5j.jpg",
-          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1736438684/IMG_64482_fv4agc.jpg",
+          
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1736438682/IMG_9431_aceeeq.jpg",
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1736438683/IMG_9469_rfvpwb.jpg",
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1736438662/IMG_9425_z9nh4g.jpg",
@@ -276,6 +275,8 @@ const cardsData = [
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1736438633/IMG_0286_ov8abr.jpg",
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1736438632/_MG_9271_bagkml.jpg",
           "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1736438631/_MG_3355_-_Copy_mueaji.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1736438684/IMG_9609_kvcg5j.jpg",
+          "https://res.cloudinary.com/dbc02mn7z/image/upload/q_auto,f_auto,w_1024/v1736438684/IMG_64482_fv4agc.jpg",
         ],
       },
       {
