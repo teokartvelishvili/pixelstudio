@@ -63,7 +63,7 @@ const CardDetails = () => {
             key={index}
             src={photo}
             loading="lazy"
-            alt={`Photo ${index}`}
+            alt={`Item ${index}`}
             onError={(e) => (e.target.src = "/path/to/default-image.jpg")}
           />
         ))}
