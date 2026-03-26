@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../../Hooks/ThemeContext";
-import { LanguageContext } from "../../Hooks/LanguageContext";
 import { Link } from "react-router-dom";
 import "./Header.css";
 import Navbar from "../Navbar/Navbar";
@@ -8,7 +7,6 @@ import mainLogo from "../../Assets/Yellow.png";
 
 const Header = () => {
   const { theme } = useContext(ThemeContext);
-  const { language } = useContext(LanguageContext);
 
   return (
     <div className={`header ${theme}`}>
